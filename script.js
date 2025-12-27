@@ -9,7 +9,11 @@ menuOpenButton.addEventListener("click", () => {
 menuCloseButton.addEventListener("click", () => menuOpenButton.click());
 
 
-
+document.querySelectorAll(".nav-link").forEach(link => {
+  link.addEventListener("click", () => {
+    document.body.classList.remove("show-mobile-menu");
+  });
+});
 
 
 
