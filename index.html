@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayZZ-esports</title>
+    <!-- Linking Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#about" class="nav-logo">
+                <h2 class="logo-text">🎮 PlayZZ</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                   <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                   <li class="nav-item">
+                    <a href="#games" class="nav-link">Games</a>
+                </li>
+                   <li class="nav-item">
+                    <a href="#Organizers" class="nav-link">Organizers</a>
+                </li>
+                   <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                 </li>
+                   <li class="nav-item">
+                    <a href="#contact-us" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">PLAY . COMPETE . WIN</h2>
+                    <h3 class="subtitle">Join Online & LAN tournaments
+                         across top mobile multiplayer games.</h3>
+                         <p class="description">A competitive gaming platform bringing squads 
+                            together through high-intensity online and LAN tournaments.</p>
+                   
+                    <div class="buttons">
+                        <a href="#slot-book" class="button book-slot">Book Slot</a>
+                        <a href="#contact-us" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="hero-img.png" alt="esport" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+         <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="About Image.png" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">PlayZZ is an esports tournament hosting platform built for competitive gamers.
+                         We organize fast, structured tournaments for popular titles like <strong>BGMI, FREE FIRE, VALORANT, FIFA</strong> and many more.
+                         <br>
+                         <br>
+                        Players and teams can easily discover tournaments, book slots according to their requirements, and compete in a fair and transparent 
+                        environment. Designed with simplicity and performance in mind, PlayZZ ensures smooth registrations, clear match details, and a seamless
+                         user experience. Our goal is to build a strong esports community where gamers of all levels can compete, improve, and showcase their talent.
+                        </p>
+                        <div class="social-link-list">
+                            <a href="https://www.instagram.com/joginder_zehrilla?igsh=cXJpdGowZDh4M3Vv&utm_source=qr" 
+                            class="social-link"><i class="fa-brands fa-instagram"></i></a>
+
+                            <a href="#" 
+                            class="social-link"><i class="fa-brands fa-facebook"></i></a>
+
+                            <a href="#" 
+                            class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Games Section -->
+          <section class="menu-section" id="games">
+            <h2 class="section-title">Featured Games</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#slot-book" data-game="BGMI" class="game-link">
+                        <img src="BGMI.png" alt="BGMI" class="menu-image">
+                        </a>
+                        <h3 class="name">BGMI</h3>
+                        <p class="text">Battle royale combat with strategic survival and teamwork.<br>
+                             <strong>Modes:</strong> Solo • Duo • Squad</p>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#slot-book" data-game="FREE FIRE" class="game-link">
+                        <img src="FREE FIRE.png" alt="FREE FIRE" class="menu-image">
+                        </a>
+                        <h3 class="name">FREE FIRE</h3>
+                        <p class="text">Fast-paced action matches designed for aggressive play..<br>
+                             <strong>Modes:</strong> Solo • Duo • Squad</p>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#slot-book" data-game="VALORANT" class="game-link">
+                        <img src="VALORANT.png" alt="VALORANT" class="menu-image">
+                        </a>
+                        <h3 class="name">VALORANT</h3>
+                        <p class="text">Tactical 5v5 shooter combining precision gunplay and abilities.<br>
+                             <strong>Modes:</strong> 5v5 Team • Custom Matches</p>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#slot-book" data-game="COD" class="game-link">
+                        <img src="COD.png" alt="COD MOBILE" class="menu-image">
+                        </a>
+                        <h3 class="name">COD MOBILE</h3>
+                        <p class="text">Competitive FPS with multiple multiplayer formats.<br>
+                             <strong>Modes:</strong> Solo • Duo • Squad • Team Deathmatch</p>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#slot-book" data-game="FIFA" class="game-link">
+                        <img src="FIFA.png" alt="FIFA" class="menu-image">
+                        </a>
+                        <h3 class="name">FIFA</h3>
+                        <p class="text">Realistic football esports focused on skill and tactics.<br>
+                             <strong>Modes:</strong> 1v1 • Online Friendlies • Tournament Mode</p>
+                    </li>
+                     <li class="menu-item">
+                        <a href="#slot-book" data-game="CS2" class="game-link">
+                        <img src="CS 2.png" alt="CS 2" class="menu-image">
+                        </a>
+                        <h3 class="name">Counter-Strike 2</h3>
+                        <p class="text">Classic tactical shooter built on coordination and precision.<br>
+                             <strong>Modes:</strong> 5v5 Competitive • Custom Lobbies</p>
+                    </li>
+                </ul>
+            </div>
+          </section>
+
+           <!-- Book Slot Section -->
+          <section class="slot-section" id="slot-book">
+    <h2 class="section-title">Book Slot</h2>
+
+    <div class="section-content slot-wrapper">
+      <form class="slot-form">
+
+        <!-- Captain & Team -->
+        <div class="form-group">
+          <input type="text" placeholder="Captain Name" required>
+          <input type="text" placeholder="Team Name" required>
+        </div>
+
+        <div class="form-group">
+          <input type="tel" placeholder="Mobile Number" required>
+        </div>
+
+        <!-- Game & Mode -->
+        <div class="form-group">
+          <select id="gameSelect" required>
+            <option value="">Select Game</option>
+            <option value="BGMI">BGMI</option>
+            <option value="FREE FIRE">FREE FIRE</option>
+            <option value="VALORANT">VALORANT</option>
+            <option value="FIFA">FIFA</option>
+            <option value="CS2">CS 2</option>
+            <option value="COD">COD MOBILE</option>
+          </select>
+
+          <select id="modeSelect" required>
+            <option value="">Select Mode</option>
+            <option value="Solo">Solo</option>
+            <option value="Duo">Duo</option>
+            <option value="Squad">Squad</option>
+          </select>
+        </div>
+
+        <!-- Time Slot -->
+        <div class="time-slot-box">
+          <p class="time-title">Select Lobby Time</p>
+          <div class="time-slots">
+            <label><input type="radio" name="timeSlot" required><span>9:00 AM Lobby</span></label>
+            <label><input type="radio" name="timeSlot"><span>12:00 PM Lobby</span></label>
+            <label><input type="radio" name="timeSlot"><span>3:00 PM Lobby</span></label>
+            <label><input type="radio" name="timeSlot"><span>6:00 PM Lobby</span></label>
+          </div>
+        </div>
+
+        <!-- Entry Fee -->
+        <div class="form-group">
+          <select required>
+            <option value="">Entry Fee</option>
+            <option>₹50</option>
+            <option>₹100</option>
+            <option>₹200</option>
+            <option>₹500</option>
+          </select>
+        </div>
+
+            <input type="text" id="paymentId" placeholder="Transaction ID (After Payment)">
+      </div>
+
+      <div class="payment-box">
+        <p class="payment-text">
+          Scan QR & pay → Send screenshot on WhatsApp for verification
+        </p>
+
+        <img src="Payment QR.jpeg" alt="Payment QR" class="qr-image">
+
+        <a href="https://wa.me/9508314532" class="whatsapp-btn">
+          Send Screenshot on WhatsApp
+        </a>
+      </div>
+
+      <button type="submit" class="slot-btn" id="registerBtn" disabled>
+         Register Slot
+    </button>
+      </form>
+    </div>
+
+     <div class="success-popup" id="successPopup">
+  <div class="popup-box">
+    <h3>✅ Slot Booked Successfully</h3>
+    <p>Send payment screenshot on WhatsApp to confirm your slot.</p>
+    <button id="closePopup">OK</button>
+  </div>
+</div>
+           </section>
+
+
+          <!--Organizers Section-->
+          <section class="organizers-section" id="Organizers">
+            <h2 class="section-title">Organizers</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="organizers-list swiper-wrapper">
+                            <li class="organizer swiper-slide">
+                                <img src="Sudhanshu.jpeg" alt="user1" class="user-image">
+                                <h3 class="name">Sudhanshu Singh</h3>
+                                <i class="role">Founder & CEO</i>
+                            </li>
+                             <li class="organizer swiper-slide">
+                                <img src="Raj.jpeg" alt="user1" class="user-image">
+                                <h3 class="name">Raj Shekhar Yadav</h3>
+                                <i class="role">Community Growth & Engagement Lead</i>
+                            </li>
+                             <li class="organizer swiper-slide">
+                                <img src="Shubham.jpeg" alt="user1" class="user-image">
+                                <h3 class="name">Shubham Pandey</h3>
+                                <i class="role">Tournament Operations Manager</i>
+                            </li>
+                             <li class="organizer swiper-slide">
+                                <img src="Karan.jpeg" alt="user1" class="user-image">
+                                <h3 class="name">Karan Singh</h3>
+                                <i class="role">Platform & Technical Operations Lead</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+
+
+          <!-- Gallery Section -->
+           <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="Gallery img1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="gallery image 2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="gallery image 3.png" alt="Gallery" class="gallery-image">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="Gallery Images 4.webp" alt="Gallery" class="gallery-image">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="gallery image 5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="gallery image 6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+           </section>
+
+
+           <!-- Contact Section -->
+         <section class="contact-section" id="contact-us">
+  <h2 class="section-title">Contact Us</h2>
+
+  <div class="section-content contact-wrapper">
+    
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>
+        Have questions about tournaments, slot booking, or collaborations?  
+        Reach out to us anytime.
+      </p>
+
+      <ul class="contact-list">
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <span>+91 9508314532</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <span>playzz.esports@gmail.com</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>India (LAN & Online Events)</span>
+        </li>
+        <li>
+     <a href="https://wa.me/919508314532" target="_blank" class="whatsapp-btn">
+  <i class="fa-brands fa-whatsapp"></i>
+  Chat Now on WhatsApp
+</a>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+      </div>
+
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+
+      <button type="submit" class="contact-btn">
+        Send Message
+      </button>
+    </form>
+
+  </div>
+         </section>
+
+
+
+         <!-- Footer Section -->
+      <footer class="footer-section">
+       <div class="section-content footer-wrapper">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <h2 class="logo-text">🎮 PlayZZ</h2>
+      <p class="footer-text">
+        Competitive esports platform hosting online & LAN tournaments
+        for top mobile and PC games.
+      </p>
+    </div>
+
+    <!-- Social Links -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-link-list">
+        <a href="https://www.instagram.com/joginder_zehrilla?igsh=cXJpdGowZDh4M3Vv&utm_source=qr" class="social-link">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="social-link">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" class="social-link">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Policies -->
+    <div class="footer-links">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="refund-policy.html">Refund Policy</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>© 2024 PlayZZ. All rights reserved.</p>
+  </div>
+</footer>
+
+    </main>
+
+
+    <!-- Linking Swiper script -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

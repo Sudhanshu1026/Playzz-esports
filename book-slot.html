@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Slot | PlayZZ</title>
+
+  <!-- Same CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header (reuse same navbar ) -->
+  <header>
+    <nav class="navbar section-content">
+      <a href="index.html" class="nav-logo">
+        <h2 class="logo-text">🎮 PlayZZ</h2>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Book Slot Section -->
+  <section class="slot-section">
+    <h2 class="section-title">Book Slot</h2>
+
+    <div class="section-content slot-wrapper">
+      <form class="slot-form">
+
+        <!-- Captain & Team -->
+        <div class="form-group">
+          <input type="text" placeholder="Captain Name" required>
+          <input type="text" placeholder="Team Name" required>
+        </div>
+
+        <div class="form-group">
+          <input type="tel" placeholder="Mobile Number" required>
+        </div>
+
+        <!-- Game & Mode -->
+        <div class="form-group">
+          <select id="gameSelect" required>
+            <option value="">Select Game</option>
+            <option value="BGMI">BGMI</option>
+            <option value="FREE FIRE">FREE FIRE</option>
+            <option value="VALORANT">VALORANT</option>
+            <option value="FIFA">FIFA</option>
+            <option value="CS2">CS 2</option>
+            <option value="COD">COD MOBILE</option>
+          </select>
+
+          <select id="modeSelect" required>
+            <option value="">Select Mode</option>
+            <option value="Solo">Solo</option>
+            <option value="Duo">Duo</option>
+            <option value="Squad">Squad</option>
+          </select>
+        </div>
+
+        <!-- Time Slot -->
+        <div class="time-slot-box">
+          <p class="time-title">Select Lobby Time</p>
+          <div class="time-slots">
+            <label><input type="radio" name="timeSlot" required><span>9:00 AM Lobby</span></label>
+            <label><input type="radio" name="timeSlot"><span>12:00 PM Lobby</span></label>
+            <label><input type="radio" name="timeSlot"><span>3:00 PM Lobby</span></label>
+            <label><input type="radio" name="timeSlot"><span>6:00 PM Lobby</span></label>
+          </div>
+        </div>
+
+        <!-- Entry Fee -->
+        <div class="form-group">
+          <select required>
+            <option value="">Entry Fee</option>
+            <option>₹50</option>
+            <option>₹100</option>
+            <option>₹200</option>
+            <option>₹500</option>
+          </select>
+        </div>
+
+            <input type="text" placeholder="Transaction ID (After Payment)">
+      </div>
+
+      <div class="payment-box">
+        <p class="payment-text">
+          Scan QR & pay → Send screenshot on WhatsApp for verification
+        </p>
+
+        <img src="Payment QR.jpeg" alt="Payment QR" class="qr-image">
+
+        <a href="https://wa.me/9508314532" class="whatsapp-btn">
+          Send Screenshot on WhatsApp
+        </a>
+      </div>
+
+      <button type="submit" class="slot-btn">
+        Register Slot
+      </button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
